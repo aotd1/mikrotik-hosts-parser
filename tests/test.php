@@ -1,5 +1,7 @@
 <?php
 
+use tarampampam\HostsParser;
+
 ## @author    Samoylov Nikolay
 ## @project   Hosts Parser 4 MikroTik
 ## @copyright 2015 <github.com/tarampampam>

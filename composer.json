@@ -1,0 +1,35 @@
+{
+    "name": "tarampampam/mikrotik-hosts-parser",
+    "description": "Script generates AdBlock mikrotik script",
+    "type": "library",
+    "keywords": ["Mikrotik", "AdBlock", "generator"],
+    "homepage": "http://stopad.generate.club/",
+    "license": "MIT",
+    "require": {
+        "ext-curl": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "tarampampam\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "tests\\": "tests/" }
+    },
+    "authors": [
+        {
+            "name": "Samoylov Nikolay",
+            "homepage": "http://blog.kplus.pro/",
+            "role": "Developer"
+        },
+        {
+            "name": "Alexey Ashurok",
+            "email": "work@aotd.ru",
+            "homepage": "https://www.aotd.ru/",
+            "role": "Developer"
+        }
+    ]
+}
